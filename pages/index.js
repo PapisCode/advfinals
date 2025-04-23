@@ -1,5 +1,7 @@
 import UserProfile from '../components/UserProfile';
 import Counter from '../components/Counter';
+import TodoList from '../components/TodoList';
+
 
 
 export default function Home() {
@@ -12,6 +14,7 @@ export default function Home() {
       />
 
 <Counter />
+<TodoList />
     </div>
   );
 }
