@@ -2,6 +2,10 @@ import UserProfile from '../components/UserProfile';
 import Counter from '../components/Counter';
 import TodoList from '../components/TodoList';
 import Link from 'next/link';
+import Posts from '../components/Posts';
+
+
+
 
 
 
@@ -22,6 +26,8 @@ export default function Home() {
 
 <Counter />
 <TodoList />
+<Posts />
+
     </div>
   );
 }
