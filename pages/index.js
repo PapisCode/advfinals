@@ -1,4 +1,6 @@
 import UserProfile from '../components/UserProfile';
+import Counter from '../components/Counter';
+
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
         profilePicture="/Project.jpg"
         bio="Aspiring cybersecurity and programming expert. Passionate about front-end and Web Development."
       />
+
+<Counter />
     </div>
   );
 }
